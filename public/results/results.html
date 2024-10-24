@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="view.css">
+    <link rel="stylesheet" href="temaChiaro.css" id="cssTema"> <!-- questo href sarà cambiato da javascript -->
+    <title>Risultati</title>
+</head>
+<body>
+    <header>
+        <h4>Testo immesso:</h4>
+        <p id="testo"></p>
+        <h4>Lingua selezionata:</h4>
+        <p id="lingua"></p>
+        <h4>Parole chiave estratte dal testo:</h4>
+        <p id="parole_chiave"></p>
+    </header>
+
+    <main id="main">
+        <h2 class="center">Entità estratte:</h2>
+        <!-- esempio di card dell'entità "roma": -->
+    
+        <!-- 
+        <div class="center card mb-3" id="Roma">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Roma_dall'aereo.jpg" class="card-img-top" alt="roma">
+            <div class="card-body">
+                <h2 class="card-title">Roma</h2>
+                <p class="card-text">Roma (AFI) è la capitale d'Italia. Inoltre, è capoluogo dell'omonima città metropolitana e della regione Lazio. Il comune di Roma è dotato di un ordinamento amministrativo speciale, denominato Roma Capitale e disciplinato da legge dello Stato.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Città murate del Lazio</li>
+                <li class="list-group-item">Roma</li>
+            </ul>
+            <div class="card-body">
+                <a href="http://it.wikipedia.org/wiki/Roma" class="card-link">Link a Wikipedia</a>
+            </div>
+        </div> 
+        -->
+    </main>
+
+    <footer class="center">
+        <a href="/">Torna alla home</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="results_controller.js"></script>
+</body>
+</html>

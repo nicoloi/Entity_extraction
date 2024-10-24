@@ -1,0 +1,26 @@
+body {
+    background-color: #222;
+    color: white;
+}
+
+.modal-content {
+    background-color: #222;
+    color: white;
+}
+
+a {
+    color: aqua;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+#testo {
+    background: #e0e0e0;
+    border: 1px solid aqua;
+}
+
+#lingua {
+    background: #e0e0e0;
+}

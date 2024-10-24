@@ -1,0 +1,14 @@
+body {
+    background-color: #222;
+    color: white;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+a {
+    color: aqua;
+}
+
+a:hover {
+    color: aquamarine;
+}

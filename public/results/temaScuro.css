@@ -1,0 +1,30 @@
+body {
+    background-color: #222;
+    color: white;
+}
+
+h4 {
+    color: lightskyblue;
+}
+
+a {
+    color: aqua;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+.card {
+    background-color: #292929;
+    color: white;
+    border: 1px solid aqua;
+    /* queste regole vengono aggiunte alle regole della classe card di bootstrap */
+}
+
+.list-group-item {
+    background-color: #292929;
+    color: white;
+    border: 1px solid aqua;
+    /* queste regole vengono aggiunte alle regole della classe list-group-item di bootstrap */
+}
