@@ -1,3 +1,3 @@
 # Entity Extraction
 
-This project implements an entity extraction system designed to identify and classify named entities (e.g., people, organizations, locations) in natural language text. The system uses API Dandelion to extract structured information from unstructured text.
+This project implements an entity extraction system designed to identify and classify named entities (e.g., people, organizations, locations) in natural language text. The system utilizes the **Dandelion API** to extract structured information from unstructured text. The API performs Named Entity Recognition (NER), linking entities to real-world data, such as Wikipedia, to enhance the accuracy and relevance of the extracted information. The goal of this project is to enable automatic extraction of useful entities from textual data, facilitating downstream tasks like knowledge extraction, information retrieval, and content analysis.
